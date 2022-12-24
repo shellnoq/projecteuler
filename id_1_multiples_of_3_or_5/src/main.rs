@@ -13,6 +13,8 @@ fn main(){
     .expect("FAILED to READ LINE!!");
 
     let _number: i32 = _number.trim().parse().expect("Please enter a number!");
+    find_multiples();
+    sum_of_multiples();
 }
 
 fn find_multiples(){
