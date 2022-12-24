@@ -2,7 +2,7 @@ use std::io;
 
 fn main(){
 
-    println!("Find Sum of Multiples of 3 or 5 below a number you want!");
+    println!("Find Sum of Multiples of 3 or 5 for a number you want!");
 
     println!("Type your Number!");
 
@@ -10,7 +10,7 @@ fn main(){
 
     io::stdin()
     .read_line(&mut _number)
-    .expect("FAILED to READ LINE!!");
+    .expect(r#"FAILED to READ LINE!!"#);
 
     let _number: i32 = _number.trim().parse().expect("Please enter a number!");
     find_multiples();
