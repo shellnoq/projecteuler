@@ -6,7 +6,7 @@ fn main(){
 
     println!("Type your Number!");
 
-    let mut _number = String::new();
+    let mut _number: String = String::new();
 
     io::stdin()
     .read_line(&mut _number)
