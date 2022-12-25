@@ -6,13 +6,13 @@ fn main(){
 
     println!("Type your Number!");
 
-    let mut _number: String = String::new();
+    let mut _number = String::new();
 
     io::stdin()
     .read_line(&mut _number)
     .expect(r#"FAILED to READ LINE!!"#);
 
-    let _number: i32 = _number.trim().parse().expect("Please enter a number!");
+    let _number: i32 = _number.trim().parse().expect("YOU MUST ENTER A VALID NUMBER!!");
     find_multiples();
     sum_of_multiples();
 }
