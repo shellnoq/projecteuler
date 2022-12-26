@@ -13,15 +13,9 @@ fn main(){
     .expect(r#"FAILED to READ LINE!!"#);
 
     let _number: i32 = _number.trim().parse().expect("YOU MUST ENTER A VALID NUMBER!!");
-    find_multiples();
     sum_of_multiples();
 }
 
-fn find_multiples(){
-    
-}
-
-
-fn sum_of_multiples(){
+pub fn sum_of_multiples(){
 
 }
