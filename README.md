@@ -1,3 +1,3 @@
 # projecteuler
 [Project Eulor](https://projecteuler.net/)
-> aims to solve all problems in rust programming language.
+> aims to solve all problems with in rust programming language.
