@@ -11,11 +11,6 @@ fn main() {
 }
 
 
-fn find_fibonacci_numbers(){
+fn find_even_valued_terms(){
 
-}
-
-
-fn even_numbers(){
-    
 }
