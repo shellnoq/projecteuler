@@ -12,7 +12,7 @@ fn main() {
     println!("This programming aiming to find the sum of the even-valued terms in fibonacci sequence!");
     let _sequence_length: String = String::new();
 
-    println!("Enter the legnth of fibonacci sequence that you want");
+    println!("Enter the length of fibonacci sequence that you want");
     
     //readline
     io::stdin().read_line(&mut _sequence_length)
